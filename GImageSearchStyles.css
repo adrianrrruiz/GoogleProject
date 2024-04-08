@@ -1,0 +1,52 @@
+@import url(./styles.css);
+
+.browser-form form {
+    flex-direction: row;
+    border:1px solid grey;
+    padding:1px;
+    border-radius: 40px;
+    overflow: hidden;
+    height: 40px;
+}
+
+.logo-images{
+    position: relative;
+}
+
+.logo-images div {
+    position: absolute;
+    bottom: 30px;
+    right: 10px;
+    color: blue;
+}
+
+#search-input-image {
+    width: 600px;
+    flex-grow:1;
+    border: none;
+    font-size: 16px;
+    margin-left: 20px;
+}
+
+#search-input-image:focus {
+    outline: none;
+}
+
+.browser-form form:focus-within {
+    outline: 1px solid blue;
+}
+
+#btn-search{
+    margin-right: 10px;
+    background-color: transparent;
+    border: none;
+}
+
+#btn-search:hover{
+    cursor: pointer;
+}
+
+#search-icon {
+    width: 12px;
+    margin-bottom: 0;
+}

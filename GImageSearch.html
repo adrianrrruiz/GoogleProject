@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./GImageSearchStyles.css">
+    <title>Image Search</title>
+</head>
+<body>
+    <div class="browser">
+        <header class="header">
+            <a class="nav-buttons" href="./GImageSearch.html">Image</a>
+            <a class="nav-buttons" href="./GAdvancedSearch.html">Advanced</a>
+            <a href="index.html">
+                <img id="logo" src="./assets/google-logo.jpg" alt="google-logo">
+            </a>
+        </header>
+        <div class="browser-form">
+            <div class="logo-images">
+                <img id="logo2" src="./assets/google-logo2.jpg" alt="google-logo2">
+                <div>Images</div>
+            </div>
+            <form action="https://www.google.com/search">
+                <input id="search-input-image" type="text" name="q">
+                <input type="hidden" name="tbm" value="isch">
+                <button id="btn-search">
+                    <img id="search-icon" src="./assets/search-icon.png" alt="">
+                </button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

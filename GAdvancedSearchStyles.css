@@ -1,0 +1,46 @@
+@import url(./styles.css);
+
+h2 {
+    padding: 0 40px;
+    color: #f28b82;
+    font-weight: lighter;
+}
+
+h3 {
+    font-weight: 500;
+}
+
+.form-container {
+    width: 890px;
+    padding: 30px 40px 30px;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 2fr 5fr;
+    gap: 12px;
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+form input {
+    height: 28px;
+    padding-left: 7px;
+}
+
+form label {
+    align-self: center;
+}
+
+.advanced-search-button{
+    grid-column: 2;
+    width: 130px;
+    padding: 5px;
+    font-size: 12px;
+    margin-top: 8px;
+    justify-self: end;
+    background-color: #4d90fe;
+    color: #fff;
+    border: 1px solid #3079ed;
+    font-weight: bold;
+}
